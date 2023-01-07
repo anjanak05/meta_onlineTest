@@ -1,0 +1,86 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  /* border:1px solid red; */
+  width: 100%;
+  margin: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.navbarContainer > div {
+  width: 40%;
+  /* border:1px solid green; */
+  display: flex;
+  /* padding-top: 2%; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbarContainer > h3 {
+  padding-top: 1%;
+}
+.navbarContainer > div > p {
+  padding-top: 2.5%;
+}
+
+.belowNavbarDiv {
+  padding-top: 4%;
+  width: 100%;
+  margin: auto;
+  /* border:1px solid green; */
+  margin-top: 15px;
+  color: white;
+  text-align: center;
+  background-color: rgb(21, 191, 221);
+  border-radius: 5px;
+}
+
+.belowNavbarDiv > p {
+  margin: auto;
+  width: 60%;
+}
+
+.belowNavbarDiv > h2 {
+  font-weight: 300;
+}
+
+.belowNavbarDiv > button {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  background-color: white;
+}
+
+.cardContainer {
+  width: 100%;
+  display: grid;
+  /* border:1px solid green; */
+  grid-template-columns: repeat(3, 1fr);
+  gap:10px
+}
+.classesInfoContainer{
+  margin: auto;
+  width: 100%;
+
+margin-top: 3%;
+}
+
+
+
+.classesInfoContainer > h1 {
+  font-weight: 300;
+}
+
+.classesInfoContainer > h1, .classesInfoContainer > p {
+  text-align: center; 
+}
+.classesInfoContainer > p {
+  color: grey;
+}
+
+.cardContainer>div>img{
+height: 250px;
+}
+.cardContainer>div>p{
+  height: 50px;
+  }
